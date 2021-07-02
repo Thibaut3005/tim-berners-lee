@@ -74,16 +74,18 @@ li{
         font-size: 20px;
     }
    
-
-button {
+header a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    background-color: darkred;
     color: white;
-    background-color: rgb(163, 16, 16);
-    padding: 15px;
-    margin: 120px;
-    border-radius: 10px;
-    font-size: 135%;
-    font: bold;
-}
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 20px;
+   }
+
 div.movie-title{
     font-size: 150%;
     align-items: center;
