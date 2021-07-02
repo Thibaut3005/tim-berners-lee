@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;1,300&display=swap');
+
+
+
+
+
+body{
+    display: flex;
+    background-color: lightgray;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Open Sans', sans-serif;
+}
+header, section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 5%;
+    padding: 5%;
+    border:10px solid darkgrey;
+    background-color: white;
+}
+
+.tim{
+    display: flex;
+    width: 20%;
+    border-radius: 50%;
+    border: 5px solid black;
+    
+}
+.nom{
+    color: rgb(163, 16, 16);
+    font-weight: bolder;
+}
+
+
+
+ul{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    padding: 5px;
+}
+li{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    list-style: none;
+    
+    width: 150px;
+}
+.social{
+    display: flex;
+    flex-direction: column;
+    height: 30%;
+    align-items: center;
+    justify-content:center;
+    color: darkgrey;
+    text-decoration: none;
+    }
+ section ul li a i.fab{
+     display: flex;
+     font-size: 30px;
+     
+    }
+    section ul li a p{
+        font-weight: 600;
+        font-size: 20px;
+    }
+   
+
+button {
+    color: white;
+    background-color: rgb(163, 16, 16);
+    padding: 15px;
+    margin: 120px;
+    border-radius: 10px;
+    font-size: 135%;
+    font: bold;
+}
+div.movie-title{
+    font-size: 150%;
+    align-items: center;
+}
+div{
+    display: flex;
+    flex-direction: row;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    }
+section.movie-list{
+    display: flex;
+    flex-direction: column;  
+}
+img.poster{
+    margin-right: 10px;
+
+}
+div.synopsis{
+    display:flex;
+    flex-direction: column;    
+    padding:10px;
+    margin-left: 10px;
+    align-items: center
+}
+@media only screen and (max-width: 600px){
+    header , section{
+     width: 80%;
+    }
+
+    section div{
+        display: flex;
+        flex-direction: column;
+    }
+img{
+    height: auto;
+    width: auto;
+}
+ul{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 5px;
+}
+
+
+
+}
+    
