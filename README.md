@@ -2,7 +2,7 @@
 
 ### project objectives
 
-Learning my way into coding a web page in HTLM and CSS using a exsting page a exemple about Tim Berners-lee
+Learning my way into coding a web page in HTLM and CSS using a exsting page about Tim Berners-lee as a exemple 
 
 ### Method
 
