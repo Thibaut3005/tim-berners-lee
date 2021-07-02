@@ -12,7 +12,7 @@ Using flex box to organize the page, media queries, link, font awsome, button an
 [link to the page](https://thibaut3005.github.io/tim-berners-lee/)
 
 ---
-#####infos
+##### infos
 author: Grégoire thibaut 
 Date : 2 june 2021
 git repo: https://github.com/Thibaut3005/tim-berners-lee
